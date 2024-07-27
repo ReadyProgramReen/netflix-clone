@@ -85,3 +85,30 @@
 .nav-dark{
     background: #141414;
 }
+
+/* Media Queries */
+
+@media(max-width: 800px){
+    .nav-bar{
+        padding: 20px 4%;
+    }
+    .nav-bar ul{
+        display: none;
+    }
+    .nav-bar img{
+        height:25px
+    }
+}
+
+@media(max-width: 500px){
+    .nav-bar img{
+        height:20px
+    }
+
+    .nav-bar right{
+        gap:10px;
+    }
+
+
+}
+
